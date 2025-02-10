@@ -1,6 +1,8 @@
 import streamlit as st
 from twitter_scraper import TwitterScraper
 
+st.title("Twitter Scraper")
+
 search_query = st.text_input("Search query")
 from_account = st.text_input("From account")
 
